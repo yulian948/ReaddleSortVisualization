@@ -12,6 +12,8 @@
 		A8AFF3292B72687100FF269F /* SortingAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFF3282B72687100FF269F /* SortingAlgorithm.swift */; };
 		A8AFF32B2B72689800FF269F /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFF32A2B72689800FF269F /* BubbleSort.swift */; };
 		A8AFF32E2B7274D100FF269F /* UIApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFF32D2B7274D100FF269F /* UIApplicationExtensions.swift */; };
+		A8AFF3302B72777700FF269F /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFF32F2B72777700FF269F /* SelectionSort.swift */; };
+		A8AFF3342B72791E00FF269F /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFF3332B72791E00FF269F /* InsertionSort.swift */; };
 		A8C964AB2B7266B500161EBF /* ReaddleSortVisualizationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C964AA2B7266B500161EBF /* ReaddleSortVisualizationApp.swift */; };
 		A8C964AD2B7266B500161EBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C964AC2B7266B500161EBF /* ContentView.swift */; };
 		A8C964AF2B7266BD00161EBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C964AE2B7266BD00161EBF /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 		A8AFF3282B72687100FF269F /* SortingAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgorithm.swift; sourceTree = "<group>"; };
 		A8AFF32A2B72689800FF269F /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 		A8AFF32D2B7274D100FF269F /* UIApplicationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtensions.swift; sourceTree = "<group>"; };
+		A8AFF32F2B72777700FF269F /* SelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
+		A8AFF3332B72791E00FF269F /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		A8C964A72B7266B500161EBF /* ReaddleSortVisualization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReaddleSortVisualization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C964AA2B7266B500161EBF /* ReaddleSortVisualizationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaddleSortVisualizationApp.swift; sourceTree = "<group>"; };
 		A8C964AC2B7266B500161EBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,8 +57,10 @@
 		A8AFF3232B7267B400FF269F /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				A8AFF3282B72687100FF269F /* SortingAlgorithm.swift */,
+				A8AFF3352B72798500FF269F /* Base */,
 				A8AFF32A2B72689800FF269F /* BubbleSort.swift */,
+				A8AFF32F2B72777700FF269F /* SelectionSort.swift */,
+				A8AFF3332B72791E00FF269F /* InsertionSort.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -65,6 +71,14 @@
 				A8AFF32D2B7274D100FF269F /* UIApplicationExtensions.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		A8AFF3352B72798500FF269F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A8AFF3282B72687100FF269F /* SortingAlgorithm.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		A8C9649E2B7266B500161EBF = {
@@ -192,10 +206,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8AFF3342B72791E00FF269F /* InsertionSort.swift in Sources */,
 				A8C964AD2B7266B500161EBF /* ContentView.swift in Sources */,
 				A8AFF3292B72687100FF269F /* SortingAlgorithm.swift in Sources */,
 				A8AFF32E2B7274D100FF269F /* UIApplicationExtensions.swift in Sources */,
 				A8AFF3272B7267E200FF269F /* AlgorithmVisualizationViewModel.swift in Sources */,
+				A8AFF3302B72777700FF269F /* SelectionSort.swift in Sources */,
 				A8C964AB2B7266B500161EBF /* ReaddleSortVisualizationApp.swift in Sources */,
 				A8AFF3252B7267D600FF269F /* AlgorithmVisualizationView.swift in Sources */,
 				A8AFF32B2B72689800FF269F /* BubbleSort.swift in Sources */,
