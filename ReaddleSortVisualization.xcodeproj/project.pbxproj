@@ -14,6 +14,8 @@
 		A8AFF32E2B7274D100FF269F /* UIApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFF32D2B7274D100FF269F /* UIApplicationExtensions.swift */; };
 		A8AFF3302B72777700FF269F /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFF32F2B72777700FF269F /* SelectionSort.swift */; };
 		A8AFF3342B72791E00FF269F /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFF3332B72791E00FF269F /* InsertionSort.swift */; };
+		A8AFF3372B7279FA00FF269F /* AlgorithmsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFF3362B7279FA00FF269F /* AlgorithmsListViewModel.swift */; };
+		A8AFF3392B727A0500FF269F /* AlgorithmsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFF3382B727A0500FF269F /* AlgorithmsListView.swift */; };
 		A8C964AB2B7266B500161EBF /* ReaddleSortVisualizationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C964AA2B7266B500161EBF /* ReaddleSortVisualizationApp.swift */; };
 		A8C964AD2B7266B500161EBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C964AC2B7266B500161EBF /* ContentView.swift */; };
 		A8C964AF2B7266BD00161EBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C964AE2B7266BD00161EBF /* Assets.xcassets */; };
@@ -28,6 +30,8 @@
 		A8AFF32D2B7274D100FF269F /* UIApplicationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtensions.swift; sourceTree = "<group>"; };
 		A8AFF32F2B72777700FF269F /* SelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
 		A8AFF3332B72791E00FF269F /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
+		A8AFF3362B7279FA00FF269F /* AlgorithmsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsListViewModel.swift; sourceTree = "<group>"; };
+		A8AFF3382B727A0500FF269F /* AlgorithmsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsListView.swift; sourceTree = "<group>"; };
 		A8C964A72B7266B500161EBF /* ReaddleSortVisualization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReaddleSortVisualization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C964AA2B7266B500161EBF /* ReaddleSortVisualizationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaddleSortVisualizationApp.swift; sourceTree = "<group>"; };
 		A8C964AC2B7266B500161EBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 		A8C964BA2B7266EA00161EBF /* AlgorithmVisualization */ = {
 			isa = PBXGroup;
 			children = (
+				A8AFF3382B727A0500FF269F /* AlgorithmsListView.swift */,
+				A8AFF3362B7279FA00FF269F /* AlgorithmsListViewModel.swift */,
 				A8AFF3242B7267D600FF269F /* AlgorithmVisualizationView.swift */,
 				A8AFF3262B7267E200FF269F /* AlgorithmVisualizationViewModel.swift */,
 			);
@@ -214,7 +220,9 @@
 				A8AFF3302B72777700FF269F /* SelectionSort.swift in Sources */,
 				A8C964AB2B7266B500161EBF /* ReaddleSortVisualizationApp.swift in Sources */,
 				A8AFF3252B7267D600FF269F /* AlgorithmVisualizationView.swift in Sources */,
+				A8AFF3372B7279FA00FF269F /* AlgorithmsListViewModel.swift in Sources */,
 				A8AFF32B2B72689800FF269F /* BubbleSort.swift in Sources */,
+				A8AFF3392B727A0500FF269F /* AlgorithmsListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

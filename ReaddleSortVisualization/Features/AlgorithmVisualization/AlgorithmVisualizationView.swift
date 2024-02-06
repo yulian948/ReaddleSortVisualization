@@ -33,9 +33,9 @@ struct AlgorithmVisualizationView: View {
                     HStack(spacing: 10) {
                         ForEach(viewModel.sortedArray, id: \.self) { number in
                             Text("\(number)")
-                                .frame(width: 40, height: 40)
+                                .frame(width: 30, height: 30)
                                 .background(Color.blue)
-                                .cornerRadius(20)
+                                .cornerRadius(15)
                                 .foregroundColor(.white)
                                 .animation(.default, value: UUID())
                         }
