@@ -18,6 +18,7 @@ struct AlgorithmVisualizationView: View {
                         self.viewModel.inputArray = $0.split(separator: ",").compactMap { Int($0.trimmingCharacters(in: .whitespaces)) }
                     }
                 ))
+                .keyboardType(.decimalPad)
                 .padding()
                 
                 Button(action: {
