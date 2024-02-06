@@ -30,7 +30,9 @@ class AlgorithmVisualizationViewModel: ObservableObject {
     }
     
     func sortArray() {
-        currentStepIndex = 0
+        self.currentStepIndex = 0
+        self.stepArrays.removeAll()
+        self.stepArrays.append(self.inputArray)
         
         self.isSorting = true
         
