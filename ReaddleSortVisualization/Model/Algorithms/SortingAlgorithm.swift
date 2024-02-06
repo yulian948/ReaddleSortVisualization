@@ -9,5 +9,5 @@ import Combine
 import Foundation
 
 protocol SortingAlgorithm {
-    func sort(_ array: [Int]) -> AnyPublisher<[Int], Never>
+    func sort(_ array: [Int], stepDelaySeconds: Double) -> AnyPublisher<[Int], Never>
 }

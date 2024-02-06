@@ -10,7 +10,7 @@ import Foundation
 
 class BubbleSort: SortingAlgorithm {
     
-    func sort(_ array: [Int]) -> AnyPublisher<[Int], Never> {
+    func sort(_ array: [Int], stepDelaySeconds: Double) -> AnyPublisher<[Int], Never> {
         let subject = PassthroughSubject<[Int], Never>()
         
         DispatchQueue.global().async {
@@ -27,7 +27,7 @@ class BubbleSort: SortingAlgorithm {
                         
                         print(array)
                         subject.send(Array(array))
-                        sleep(1) // TODO: Handle speed in View Model rather then here.
+                        Thread.sleep(forTimeInterval: stepDelaySeconds) // TODO: Handle speed in View Model rather then here.
                     }
                 }
                 

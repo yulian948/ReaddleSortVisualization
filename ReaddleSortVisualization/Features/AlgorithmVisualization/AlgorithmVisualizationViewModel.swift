@@ -16,16 +16,21 @@ class AlgorithmVisualizationViewModel: ObservableObject {
     @Published var inputArray: [Int] = []
     @Published var sortedArray: [Int] = []
     
+    @Published var isSorting: Bool = false
+    
     init(sortingAlgorithm: SortingAlgorithm) {
         self.sortingAlgorithm = sortingAlgorithm
     }
     
     func sortArray() {
-        sortingAlgorithm.sort(inputArray)
+        self.isSorting = true
+        
+        sortingAlgorithm.sort(inputArray, stepDelaySeconds: 0.5)
             .receive(on: DispatchQueue.main)
 //            .delay(for: .seconds(1) , scheduler: RunLoop.main)
-            .sink(receiveValue: { [weak self] sortedArray in
-                print("STEP: \(sortedArray)")
+            .sink(receiveCompletion: { _ in
+                self.isSorting = false
+            }, receiveValue: { [weak self] sortedArray in
                 self?.sortedArray = sortedArray
             })
             .store(in: &cancellables)

@@ -24,9 +24,10 @@ struct AlgorithmVisualizationView: View {
                     UIApplication.shared.endEditing()
                     self.viewModel.sortArray()
                 }) {
-                    Text("Sort")
+                    Text(viewModel.isSorting ? "Sorting..." : "Sort")
                 }
                 .buttonStyle(.bordered)
+                .disabled(viewModel.isSorting)
                 
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 10) {
