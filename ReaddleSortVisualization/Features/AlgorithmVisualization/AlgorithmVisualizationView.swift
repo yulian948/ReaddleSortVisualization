@@ -28,7 +28,7 @@ struct AlgorithmVisualizationView: View {
                     Text(viewModel.isSorting ? "Sorting..." : "Sort")
                 }
                 .buttonStyle(.bordered)
-                .disabled(viewModel.isSorting)
+                .disabled(viewModel.isTextFieldEmpty || viewModel.isSorting)
                 
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 10) {

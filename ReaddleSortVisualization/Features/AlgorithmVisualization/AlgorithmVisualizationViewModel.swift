@@ -18,6 +18,10 @@ class AlgorithmVisualizationViewModel: ObservableObject {
     
     @Published var isSorting: Bool = false
     
+    var isTextFieldEmpty: Bool {
+        return inputArray.isEmpty
+    }
+    
     init(sortingAlgorithm: SortingAlgorithm) {
         self.sortingAlgorithm = sortingAlgorithm
     }
