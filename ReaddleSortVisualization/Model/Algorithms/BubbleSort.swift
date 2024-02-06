@@ -25,7 +25,6 @@ class BubbleSort: SortingAlgorithm {
                         array.swapAt(j, j+1)
                         swapped = true
                         
-                        print(array)
                         subject.send(Array(array))
                         Thread.sleep(forTimeInterval: stepDelaySeconds) // TODO: Handle speed in View Model rather then here.
                     }
