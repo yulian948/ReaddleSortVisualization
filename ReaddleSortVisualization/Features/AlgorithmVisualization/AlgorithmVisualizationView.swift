@@ -21,14 +21,28 @@ struct AlgorithmVisualizationView: View {
                 .padding()
                 
                 Button(action: {
+                    UIApplication.shared.endEditing()
                     self.viewModel.sortArray()
                 }) {
                     Text("Sort")
                 }
+                .buttonStyle(.bordered)
                 
-                Text("Sorted Array: \(viewModel.sortedArray.map { String($0) }.joined(separator: ", "))")
-                    .padding()
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: 10) {
+                        ForEach(viewModel.sortedArray, id: \.self) { number in
+                            Text("\(number)")
+                                .frame(width: 40, height: 40)
+                                .background(Color.blue)
+                                .cornerRadius(20)
+                                .foregroundColor(.white)
+                                .animation(.default, value: UUID())
+                        }
+                    }
+                }
+                .padding()
             }
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
             .padding()
         }
 }
