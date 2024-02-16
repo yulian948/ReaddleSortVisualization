@@ -7,36 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A8AFF3252B7267D600FF269F /* AlgorithmVisualizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFF3242B7267D600FF269F /* AlgorithmVisualizationView.swift */; };
-		A8AFF3272B7267E200FF269F /* AlgorithmVisualizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFF3262B7267E200FF269F /* AlgorithmVisualizationViewModel.swift */; };
-		A8AFF3292B72687100FF269F /* SortingAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFF3282B72687100FF269F /* SortingAlgorithm.swift */; };
-		A8AFF32B2B72689800FF269F /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFF32A2B72689800FF269F /* BubbleSort.swift */; };
-		A8AFF32E2B7274D100FF269F /* UIApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFF32D2B7274D100FF269F /* UIApplicationExtensions.swift */; };
-		A8AFF3302B72777700FF269F /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFF32F2B72777700FF269F /* SelectionSort.swift */; };
-		A8AFF3342B72791E00FF269F /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFF3332B72791E00FF269F /* InsertionSort.swift */; };
-		A8AFF3372B7279FA00FF269F /* AlgorithmsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFF3362B7279FA00FF269F /* AlgorithmsListViewModel.swift */; };
-		A8AFF3392B727A0500FF269F /* AlgorithmsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFF3382B727A0500FF269F /* AlgorithmsListView.swift */; };
-		A8C964AB2B7266B500161EBF /* ReaddleSortVisualizationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C964AA2B7266B500161EBF /* ReaddleSortVisualizationApp.swift */; };
-		A8C964AD2B7266B500161EBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C964AC2B7266B500161EBF /* ContentView.swift */; };
-		A8C964AF2B7266BD00161EBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C964AE2B7266BD00161EBF /* Assets.xcassets */; };
-		A8C964B22B7266BD00161EBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C964B12B7266BD00161EBF /* Preview Assets.xcassets */; };
+		A859407F2B80035F004B5282 /* AlgorithmVisualizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A859406C2B80035F004B5282 /* AlgorithmVisualizationViewModel.swift */; };
+		A85940802B80035F004B5282 /* AlgorithmVisualizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A859406D2B80035F004B5282 /* AlgorithmVisualizationView.swift */; };
+		A85940812B80035F004B5282 /* AlgorithmsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A859406E2B80035F004B5282 /* AlgorithmsListView.swift */; };
+		A85940822B80035F004B5282 /* AlgorithmsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A859406F2B80035F004B5282 /* AlgorithmsListViewModel.swift */; };
+		A85940832B80035F004B5282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85940702B80035F004B5282 /* Assets.xcassets */; };
+		A85940842B80035F004B5282 /* UIApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85940722B80035F004B5282 /* UIApplicationExtensions.swift */; };
+		A85940852B80035F004B5282 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85940742B80035F004B5282 /* Preview Assets.xcassets */; };
+		A85940862B80035F004B5282 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85940772B80035F004B5282 /* InsertionSort.swift */; };
+		A85940872B80035F004B5282 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85940782B80035F004B5282 /* BubbleSort.swift */; };
+		A85940882B80035F004B5282 /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85940792B80035F004B5282 /* SelectionSort.swift */; };
+		A85940892B80035F004B5282 /* SortingAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A859407B2B80035F004B5282 /* SortingAlgorithm.swift */; };
+		A859408A2B80035F004B5282 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A859407D2B80035F004B5282 /* ContentView.swift */; };
+		A859408B2B80035F004B5282 /* SortVisualizationTestTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A859407E2B80035F004B5282 /* SortVisualizationTestTaskApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A8AFF3242B7267D600FF269F /* AlgorithmVisualizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmVisualizationView.swift; sourceTree = "<group>"; };
-		A8AFF3262B7267E200FF269F /* AlgorithmVisualizationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmVisualizationViewModel.swift; sourceTree = "<group>"; };
-		A8AFF3282B72687100FF269F /* SortingAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgorithm.swift; sourceTree = "<group>"; };
-		A8AFF32A2B72689800FF269F /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
-		A8AFF32D2B7274D100FF269F /* UIApplicationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtensions.swift; sourceTree = "<group>"; };
-		A8AFF32F2B72777700FF269F /* SelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
-		A8AFF3332B72791E00FF269F /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
-		A8AFF3362B7279FA00FF269F /* AlgorithmsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsListViewModel.swift; sourceTree = "<group>"; };
-		A8AFF3382B727A0500FF269F /* AlgorithmsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsListView.swift; sourceTree = "<group>"; };
-		A8C964A72B7266B500161EBF /* ReaddleSortVisualization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReaddleSortVisualization.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8C964AA2B7266B500161EBF /* ReaddleSortVisualizationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaddleSortVisualizationApp.swift; sourceTree = "<group>"; };
-		A8C964AC2B7266B500161EBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A8C964AE2B7266BD00161EBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A8C964B12B7266BD00161EBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A859406C2B80035F004B5282 /* AlgorithmVisualizationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmVisualizationViewModel.swift; sourceTree = "<group>"; };
+		A859406D2B80035F004B5282 /* AlgorithmVisualizationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmVisualizationView.swift; sourceTree = "<group>"; };
+		A859406E2B80035F004B5282 /* AlgorithmsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmsListView.swift; sourceTree = "<group>"; };
+		A859406F2B80035F004B5282 /* AlgorithmsListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmsListViewModel.swift; sourceTree = "<group>"; };
+		A85940702B80035F004B5282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A85940722B80035F004B5282 /* UIApplicationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExtensions.swift; sourceTree = "<group>"; };
+		A85940742B80035F004B5282 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A85940772B80035F004B5282 /* InsertionSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
+		A85940782B80035F004B5282 /* BubbleSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		A85940792B80035F004B5282 /* SelectionSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
+		A859407B2B80035F004B5282 /* SortingAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortingAlgorithm.swift; sourceTree = "<group>"; };
+		A859407D2B80035F004B5282 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A859407E2B80035F004B5282 /* SortVisualizationTestTaskApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortVisualizationTestTaskApp.swift; sourceTree = "<group>"; };
+		A8C964A72B7266B500161EBF /* SortVisualizationTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SortVisualizationTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,37 +50,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A8AFF3222B7267A800FF269F /* Features */ = {
+		A85940692B80035F004B5282 /* SortVisualizationTestTask */ = {
 			isa = PBXGroup;
 			children = (
-				A8C964BA2B7266EA00161EBF /* AlgorithmVisualization */,
+				A859406A2B80035F004B5282 /* Features */,
+				A85940702B80035F004B5282 /* Assets.xcassets */,
+				A85940712B80035F004B5282 /* Utils */,
+				A85940732B80035F004B5282 /* Preview Content */,
+				A85940752B80035F004B5282 /* Model */,
+				A859407D2B80035F004B5282 /* ContentView.swift */,
+				A859407E2B80035F004B5282 /* SortVisualizationTestTaskApp.swift */,
+			);
+			path = SortVisualizationTestTask;
+			sourceTree = "<group>";
+		};
+		A859406A2B80035F004B5282 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A859406B2B80035F004B5282 /* AlgorithmVisualization */,
 			);
 			path = Features;
 			sourceTree = "<group>";
 		};
-		A8AFF3232B7267B400FF269F /* Algorithms */ = {
+		A859406B2B80035F004B5282 /* AlgorithmVisualization */ = {
 			isa = PBXGroup;
 			children = (
-				A8AFF3352B72798500FF269F /* Base */,
-				A8AFF32A2B72689800FF269F /* BubbleSort.swift */,
-				A8AFF32F2B72777700FF269F /* SelectionSort.swift */,
-				A8AFF3332B72791E00FF269F /* InsertionSort.swift */,
+				A859406C2B80035F004B5282 /* AlgorithmVisualizationViewModel.swift */,
+				A859406D2B80035F004B5282 /* AlgorithmVisualizationView.swift */,
+				A859406E2B80035F004B5282 /* AlgorithmsListView.swift */,
+				A859406F2B80035F004B5282 /* AlgorithmsListViewModel.swift */,
 			);
-			path = Algorithms;
+			path = AlgorithmVisualization;
 			sourceTree = "<group>";
 		};
-		A8AFF32C2B7274BA00FF269F /* Utils */ = {
+		A85940712B80035F004B5282 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				A8AFF32D2B7274D100FF269F /* UIApplicationExtensions.swift */,
+				A85940722B80035F004B5282 /* UIApplicationExtensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		A8AFF3352B72798500FF269F /* Base */ = {
+		A85940732B80035F004B5282 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A8AFF3282B72687100FF269F /* SortingAlgorithm.swift */,
+				A85940742B80035F004B5282 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A85940752B80035F004B5282 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A85940762B80035F004B5282 /* Algorithms */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A85940762B80035F004B5282 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				A85940772B80035F004B5282 /* InsertionSort.swift */,
+				A85940782B80035F004B5282 /* BubbleSort.swift */,
+				A85940792B80035F004B5282 /* SelectionSort.swift */,
+				A859407A2B80035F004B5282 /* Base */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		A859407A2B80035F004B5282 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A859407B2B80035F004B5282 /* SortingAlgorithm.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -88,7 +129,7 @@
 		A8C9649E2B7266B500161EBF = {
 			isa = PBXGroup;
 			children = (
-				A8C964A92B7266B500161EBF /* ReaddleSortVisualization */,
+				A85940692B80035F004B5282 /* SortVisualizationTestTask */,
 				A8C964A82B7266B500161EBF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,58 +137,17 @@
 		A8C964A82B7266B500161EBF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A8C964A72B7266B500161EBF /* ReaddleSortVisualization.app */,
+				A8C964A72B7266B500161EBF /* SortVisualizationTestTask.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A8C964A92B7266B500161EBF /* ReaddleSortVisualization */ = {
-			isa = PBXGroup;
-			children = (
-				A8AFF3222B7267A800FF269F /* Features */,
-				A8C964B82B7266D600161EBF /* Model */,
-				A8C964AA2B7266B500161EBF /* ReaddleSortVisualizationApp.swift */,
-				A8AFF32C2B7274BA00FF269F /* Utils */,
-				A8C964AC2B7266B500161EBF /* ContentView.swift */,
-				A8C964AE2B7266BD00161EBF /* Assets.xcassets */,
-				A8C964B02B7266BD00161EBF /* Preview Content */,
-			);
-			path = ReaddleSortVisualization;
-			sourceTree = "<group>";
-		};
-		A8C964B02B7266BD00161EBF /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				A8C964B12B7266BD00161EBF /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		A8C964B82B7266D600161EBF /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				A8AFF3232B7267B400FF269F /* Algorithms */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		A8C964BA2B7266EA00161EBF /* AlgorithmVisualization */ = {
-			isa = PBXGroup;
-			children = (
-				A8AFF3382B727A0500FF269F /* AlgorithmsListView.swift */,
-				A8AFF3362B7279FA00FF269F /* AlgorithmsListViewModel.swift */,
-				A8AFF3242B7267D600FF269F /* AlgorithmVisualizationView.swift */,
-				A8AFF3262B7267E200FF269F /* AlgorithmVisualizationViewModel.swift */,
-			);
-			path = AlgorithmVisualization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A8C964A62B7266B500161EBF /* ReaddleSortVisualization */ = {
+		A8C964A62B7266B500161EBF /* SortVisualizationTestTask */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8C964B52B7266BD00161EBF /* Build configuration list for PBXNativeTarget "ReaddleSortVisualization" */;
+			buildConfigurationList = A8C964B52B7266BD00161EBF /* Build configuration list for PBXNativeTarget "SortVisualizationTestTask" */;
 			buildPhases = (
 				A8C964A32B7266B500161EBF /* Sources */,
 				A8C964A42B7266B500161EBF /* Frameworks */,
@@ -157,9 +157,9 @@
 			);
 			dependencies = (
 			);
-			name = ReaddleSortVisualization;
+			name = SortVisualizationTestTask;
 			productName = ReaddleSortVisualization;
-			productReference = A8C964A72B7266B500161EBF /* ReaddleSortVisualization.app */;
+			productReference = A8C964A72B7266B500161EBF /* SortVisualizationTestTask.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -177,7 +177,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A8C964A22B7266B500161EBF /* Build configuration list for PBXProject "ReaddleSortVisualization" */;
+			buildConfigurationList = A8C964A22B7266B500161EBF /* Build configuration list for PBXProject "SortVisualizationTestTask" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -190,7 +190,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A8C964A62B7266B500161EBF /* ReaddleSortVisualization */,
+				A8C964A62B7266B500161EBF /* SortVisualizationTestTask */,
 			);
 		};
 /* End PBXProject section */
@@ -200,8 +200,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8C964B22B7266BD00161EBF /* Preview Assets.xcassets in Resources */,
-				A8C964AF2B7266BD00161EBF /* Assets.xcassets in Resources */,
+				A85940852B80035F004B5282 /* Preview Assets.xcassets in Resources */,
+				A85940832B80035F004B5282 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,17 +212,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8AFF3342B72791E00FF269F /* InsertionSort.swift in Sources */,
-				A8C964AD2B7266B500161EBF /* ContentView.swift in Sources */,
-				A8AFF3292B72687100FF269F /* SortingAlgorithm.swift in Sources */,
-				A8AFF32E2B7274D100FF269F /* UIApplicationExtensions.swift in Sources */,
-				A8AFF3272B7267E200FF269F /* AlgorithmVisualizationViewModel.swift in Sources */,
-				A8AFF3302B72777700FF269F /* SelectionSort.swift in Sources */,
-				A8C964AB2B7266B500161EBF /* ReaddleSortVisualizationApp.swift in Sources */,
-				A8AFF3252B7267D600FF269F /* AlgorithmVisualizationView.swift in Sources */,
-				A8AFF3372B7279FA00FF269F /* AlgorithmsListViewModel.swift in Sources */,
-				A8AFF32B2B72689800FF269F /* BubbleSort.swift in Sources */,
-				A8AFF3392B727A0500FF269F /* AlgorithmsListView.swift in Sources */,
+				A85940802B80035F004B5282 /* AlgorithmVisualizationView.swift in Sources */,
+				A85940842B80035F004B5282 /* UIApplicationExtensions.swift in Sources */,
+				A859408B2B80035F004B5282 /* SortVisualizationTestTaskApp.swift in Sources */,
+				A85940892B80035F004B5282 /* SortingAlgorithm.swift in Sources */,
+				A85940812B80035F004B5282 /* AlgorithmsListView.swift in Sources */,
+				A85940862B80035F004B5282 /* InsertionSort.swift in Sources */,
+				A85940882B80035F004B5282 /* SelectionSort.swift in Sources */,
+				A859408A2B80035F004B5282 /* ContentView.swift in Sources */,
+				A85940822B80035F004B5282 /* AlgorithmsListViewModel.swift in Sources */,
+				A85940872B80035F004B5282 /* BubbleSort.swift in Sources */,
+				A859407F2B80035F004B5282 /* AlgorithmVisualizationViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +355,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ReaddleSortVisualization/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SortVisualizationTestTask/Preview Content\"";
 				DEVELOPMENT_TEAM = SH4EQNN223;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -369,7 +369,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = yb.ReaddleSortVisualization;
+				PRODUCT_BUNDLE_IDENTIFIER = yb.SortVisualizationTestTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -384,7 +384,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ReaddleSortVisualization/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SortVisualizationTestTask/Preview Content\"";
 				DEVELOPMENT_TEAM = SH4EQNN223;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -398,7 +398,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = yb.ReaddleSortVisualization;
+				PRODUCT_BUNDLE_IDENTIFIER = yb.SortVisualizationTestTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -409,7 +409,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A8C964A22B7266B500161EBF /* Build configuration list for PBXProject "ReaddleSortVisualization" */ = {
+		A8C964A22B7266B500161EBF /* Build configuration list for PBXProject "SortVisualizationTestTask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8C964B32B7266BD00161EBF /* Debug */,
@@ -418,7 +418,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8C964B52B7266BD00161EBF /* Build configuration list for PBXNativeTarget "ReaddleSortVisualization" */ = {
+		A8C964B52B7266BD00161EBF /* Build configuration list for PBXNativeTarget "SortVisualizationTestTask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8C964B62B7266BD00161EBF /* Debug */,

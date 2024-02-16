@@ -1,6 +1,6 @@
 //
-//  ReaddleSortVisualizationApp.swift
-//  ReaddleSortVisualization
+//  SortVisualizationTestTaskApp.swift
+//  SortVisualizationTestTask
 //
 //  Created by Yulian on 06.02.2024.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct ReaddleSortVisualizationApp: App {
+struct SortVisualizationTestTaskApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
